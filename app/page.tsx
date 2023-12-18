@@ -1,12 +1,14 @@
-import { About } from '@/components/section/about'
-import { Collectible } from '@/components/section/collectible'
-import { Connect } from '@/components/section/connect'
-import { ConnectSocials } from '@/components/section/connect-socials'
-import { Dedication } from '@/components/section/dedication'
-import { Ecosystem } from '@/components/section/ecosystem'
-import { Hero } from '@/components/section/hero'
-import { Marquee } from '@/components/section/marquee'
-import { Supporting } from '@/components/section/supporting'
+import {
+	About,
+	Hero,
+	Dedication,
+	Marquee,
+	Collectible,
+	Connect,
+	ConnectSocials,
+	Ecosystem,
+	Supporting,
+} from '@/components/section'
 
 export default function Home() {
 	return (

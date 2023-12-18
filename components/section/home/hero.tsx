@@ -18,22 +18,22 @@ export const Hero = () => {
 					<Image
 						src='/images/koala-1.png'
 						alt='koala'
-						height={250}
-						width={250}
+						height={350}
+						width={350}
 						className='relative top-8 left-20 z-10'
 					/>
 					<Image
 						src='/images/koala-2.png'
 						alt='koala'
-						height={250}
-						width={250}
+						height={350}
+						width={350}
 						className='relative z-20'
 					/>
 					<Image
 						src='/images/koala-3.png'
 						alt='koala'
-						height={250}
-						width={250}
+						height={350}
+						width={350}
 						className='relative top-8 right-20 z-10'
 					/>
 				</div>
