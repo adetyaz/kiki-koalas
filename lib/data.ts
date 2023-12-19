@@ -1,4 +1,4 @@
-import { Team } from './types'
+import { Team, KeystoneType } from './types'
 
 export const team: Team[] = [
 	{
@@ -80,5 +80,44 @@ export const team: Team[] = [
 		twitterAccount: '',
 		position: 'Legal advisor',
 		description: 'Cardano class of 2017. Technology, media and telco lawyer.',
+	},
+]
+
+// Create mock data
+export const mockKeystone: KeystoneType[] = [
+	{
+		title: 'The base',
+		description:
+			'The foundation of our Kiki Koalas art begins with a focus on "The Base." Every Koala starts as a digital canvas, a blank slate, ready to be infused with personality and charm. The clay-base serves as a digital canvas ready to infused the vibrant personalities of our Koalas.',
+		image: '/images/eclipse-white-koala.png',
+		color: '#D7F6CB',
+	},
+	{
+		title: 'The fur',
+		description:
+			'"The Fur" serves as the touchpoint where we strive for realism, inviting you to reach out and feel the softness, even in the digital realm. Our commitment to authenticity extends to the tiniest of details. Each fur trait is meticulously designed to resonate the cozy warmth and softness that Koalas are known for.',
+		image: '/images/eclipse-black-koala.png',
+		color: '#FFDCF7',
+	},
+	{
+		title: 'The hunger',
+		description:
+			'"The Hunger” is where we explore the culinary curiosities of our Koalas. Their appetites reflect their distinct personalities - savouring their favourite treats as expressive as their individuality. Here, they satisfy not only cravings but also their appetite for whimsical stories.',
+		image: '/images/grey-koala.png',
+		color: '#E0DDEC',
+	},
+	{
+		title: 'The expressions',
+		description: `"The Expressions" capture the heart and soul of our Kiki Koalas, making them more than static digital creations – they're living, emotive beings. From playful grins to inquisitive glances, the Koalas' facial expressions mirror their personalities and resonate with your own emotions.`,
+		image: '/images/expressive-koala.png',
+		color: '#CAF2FF',
+	},
+
+	{
+		title: 'The fashion',
+		description:
+			'"The Fashion" is where we dress our Kiki Koalas in individuality. Exploring accessories and styles amplifies their personalities. Style statements made with a combination of clothes and/or accessories, add an extra layer of charm to their charismatic presence in the Kiki Kollective.',
+		image: '/images/pizza-koala.png',
+		color: '#FFFAD0',
 	},
 ]

@@ -1,4 +1,4 @@
-import { TeamCard } from '@/components/ui/team-card'
+import { TeamCard } from '@/components/ui/teamCard'
 import { team } from '@/lib/data'
 
 export const Meet = () => {

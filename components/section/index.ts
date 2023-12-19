@@ -9,5 +9,8 @@ export { Supporting } from './home/supporting'
 
 export { Marquee } from './marquee'
 
-export { AboutHero } from './team/hero'
+export { TeamHero } from './team/hero'
 export { Meet } from './team/meet'
+
+export { AboutHero } from './about/hero'
+export { Keystones } from './about/keystones'
